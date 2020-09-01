@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Challenge: Wishlist</title>
+    </head>
+  <body>
+    <br>Wishlist:</br>
+    <ol>
+    <li>Become a professional I.T</li>
+    <li>Travel to Japan</li>
+    <li>Diving in deep waters</li>
+    </ol>
+    </body>
+</html>
