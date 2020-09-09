@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    </head>
+  <body>
+    <table border="1">
+      <tr>
+        <th colspan="2"><legend>Registration Form</legend></th>
+      </tr>
+      <tr>
+        <td><label for="username">Username:</label></td>
+        <td><input type="text"
+                   name="username"
+                   id="username"
+                   placeholder="Enter username..."/>
+                   </td>
+      </tr>
+<tr>
+  <td><label for="password">Password:</label></td>
+<td><input type="password"
+           name="password"
+           id="password"
+           placeholder="Enter password..."/>
+           </td>
+      </tr>
+      <tr>
+        <td><label for="email">Email</label></td>
+        <td><input type="email"
+                   name="email"
+                   id="email"
+                   placeholder="Enter email address..."/>
+      </tr>
+      <tr>
+        <td><label for="date">Birthdate:</label></td>
+        <td>
+          <input type="date" name="date" id="date" min="1970-01-01"/>
+      </tr>
+      <tr>
+        <td>Gender:</td>
+      <td><input type="radio"
+                 name="gender"
+                 id="male"
+                 value="male"/>
+        <label for="male">Male</label>
+        <input type="radio"
+                 name="gender"
+                 id="female"
+                 value="female"/>
+        <label for="female">Female</label>
+        </td>
+      </tr>
+      <tr>
+      <td>
+        <label>Hobbies:</label>
+        </td>
+        <td>
+          <input type="checkbox"
+                 name="running"
+                 id="running"/>
+          <label for="running">Running</label>
+          <input type="checkbox"
+                 name="reading"
+                 id="reading"/>
+          <label for="Reading">Reading</label>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <input type="checkbox"
+                 name="swimming"
+                 id="swimming"/>
+          <label for="swimming">Swimming</label>
+          <input type="checkbox"
+                 name="eating"
+                 id="eating"/>
+          <label for="eating">Eating</label>
+      </tr>
+      <tr>
+        <td><label for="course">Course:</label></td>
+        <td>
+          <select name="course"
+                  id="course">
+            <option value="Select">Select Course...</option>
+            <option value="BSIT">Information Technology</option>
+            <option value="BSCS">Computer Science</option>
+            <option value="BSIS">Information System</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+        <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </td>
+      </tr>
+  </body>
+</html>
