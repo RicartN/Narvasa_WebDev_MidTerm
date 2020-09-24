@@ -2,5 +2,3 @@ body {
     background-image: url("gradient_bg_vertical.png");
     background-repeat: repeat-y;
 }
-
-p { color: red; }
