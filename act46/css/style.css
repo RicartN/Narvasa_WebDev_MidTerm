@@ -1,0 +1,97 @@
+.nav-panel li{
+    display:inline;
+    margin-top: 0px;
+    
+}
+
+ul {
+    text-align: right;
+    padding: 14px;
+    margin: 0px;
+}
+
+li {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.profPic img{
+    border-radius: 20px;
+    width: 34px;
+    height: 32px;
+}
+
+.navIcon img{
+    width: 34px;
+    height: 32px;
+}
+
+.pageHeader {
+    text-align: center;
+    font-size: 3.5em;
+    margin: 50px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.g, .o, .o2, .g, .g2, .l, .e {
+    display: inline;
+}
+
+.form {
+    text-align: center;
+    padding: 30px;
+    padding-top: 0;
+}
+
+.searchbar {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+#searchbar {
+    width: 60%;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.buttons {
+    padding: 20px 20px;
+    letter-spacing: 10px;
+    margin-bottom: 0px;
+}
+
+#b1, #b2 {
+    padding: 10px;
+    border-radius: 3px;
+    border-color: white;
+    color: gray;
+    background-color: lightgray
+}
+
+p {
+    text-align: center;
+}
+
+mark {
+    margin-top: 0;
+    background-color: white;
+    color: blue;
+}
+
+footer {
+    margin-top: 100px;;
+    background-color: lightgray;
+    padding: 20px
+}
+
+
+
+
+
+
+
+
+
+
+
