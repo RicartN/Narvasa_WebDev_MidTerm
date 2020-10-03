@@ -1,0 +1,54 @@
+body {
+    background-image: url(Wood%20Table.jpg);
+    background-repeat: no-repeat;
+}
+
+.main, input {
+    background-image: url(Paper.jpg)
+}
+
+input {
+    border: none;
+    font-size 4em;
+    font font-family: sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+.main {
+    width: 1050px;
+    height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-style: dashed;
+    border-width: 3px;
+}
+
+.top {
+    column-count: 3;
+    margin-bottom: 0px;
+}
+
+.stop, .ttop {
+    padding-top: 60px;
+}
+
+#iNote {
+    border: solid gray 3px;
+    font-size: 0.8em;
+    padding: 0px;
+}
+
+footer p{
+    margin-top: 50px;
+    padding: 0px;
+    border: 3px solid gray;
+    font-size: 0.8em;
+}
+
+#asign, #date {
+    font-size: 0.8em;
+}
