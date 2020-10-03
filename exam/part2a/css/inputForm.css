@@ -1,0 +1,73 @@
+body {
+    background-image: url(Wood%20Table.jpg);
+    background-repeat: no-repeat;
+}
+
+.main, input {
+    background-image: url(Crumpled%20Paper.jpg);
+    
+}
+
+.main {
+    width: 1090px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.col-1 {
+    float: left;
+    width: 830px;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 1em;
+    letter-spacing: 5px;
+}
+
+.info {
+    text-align: center;
+}
+
+input {
+    border: none;
+    border-bottom: solid 2px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#disclaimer {
+    width: 300px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+#warranty {
+    font-size: 0.7em
+}
+
+h4 {
+    color: red;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}
+
+h3 {
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 5px;
+}
