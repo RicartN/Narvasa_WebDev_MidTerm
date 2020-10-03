@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <title>Receipt Input Form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/inputForm.css"/>
+    </head>
+    
+    <body>
+        
+        <div class="main">
+            <div class="col-1">
+                <h1>techno|mart</h1>
+                <h2>Computers & Consumer Electronics</h2>
+
+                <div class="info">
+                    <p>Door 2 Dalagan, Felicisma E., Quezon St. PRK. Mangga, Sto. Nino
+                    , Panabo City, Davao del Norte<br>Tel No.: (084) 823-2237<br>
+                    <strong>PERSON L. NAME - Prop.</strong><br>VAT REG. TIN: 196-353-469-033</p>
+                </div>
+
+                <form>
+                    <table>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td>
+                                <label for="date">Date:</label>
+                                <input type="text" name="date">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="receieved">RECEIVED from:</label>
+                                <input type="text" name="receieved" style="width: 450px" >
+                            </td>
+                            <td>
+                                <label for="tin">TIN:</label>
+                                <input type="text" name="tin">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="address">ADDRESS:</label>
+                                <input type="text" name="address" style="width: 500px">
+                            </td>
+                            <td>
+                                <input type="text" style="margin-left: 0px; width: 190px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="bstyle">Business Style:</label>
+                                <input type="text" name="bstyle">
+                            </td>
+                            <td>
+                                <label for="osca">OSCA/PWD NO:</label>
+                                <input type="text" name="osca">
+                            </td>
+                            <td>
+                                <label for="signature">Signature:</label>
+                                <input type="text" name="signature" style="width: 125px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="sum">the SUM of:</label>
+                                <input type="text" name="sum" style="width: 500px">
+                            </td>
+                            <td>
+                                <input type="text" style="width: 190px">
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="pesos">pesos:</label>
+                                <input type="text" name="pesos" style="width: 500px">
+                            </td>
+                            <td>
+                                <label for="mafullle">Full</label>
+                                <input type="radio" name="type">
+                                <label for="partial">Partial</label> Payment
+                                <input type="radio" name="type">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+
+                <div class="invoice">
+                    <table border="1">
+                        <tr>
+                            <td style="padding: 0px 15px 0px 15px">IN PAYMENT OF THE FOLLOWING SERVICE/TRANSACTION/DESCRIPTION</td>
+                            <td>QTY.</td>
+                            <td>UNIT PRICE</td>
+                            <td>AMOUNT</td>
+                        </tr>
+                        <tr height="80">
+                            <td><input type="text" style="width:570px; height: 65px; border-style: none; text-align: center; font-size: 1.5em; font-style: italic"></td>
+                            <td><input type="text" style="width:29px; height: 65px; border-style: none; text-align: center; font-size: 1.5em; font-style: italic"></td>
+                            <td><input type="text" style="width:83px; height: 65px; border-style: none; text-align: center; font-size: 1.5em; font-style: italic"></td>
+                            <td><input type="text" style="width:65px; height: 65px; border-style: none; text-align: center; font-size: 1.5em; font-style: italic"></td>
+                        </tr>
+                    </table>
+                    <p id="disclaimer">THIS DOCUMENT IS NOT VALID FOR CALIM OF INPUT TAXES</p>
+                </div>
+            </div>
+            
+            <div class="col-2">
+                <div class="info2">
+                    
+                    <p id="warranty"><u>THIS COLLECTION RECEIPT SHALL BE VALID<br> FOR FIVE(5) YEARS FROM THE DATE
+                    OF ATP.</u><br>DATE ISSUED: MONTH 00, 0000<br>EXPIRY DATE: MONTH 00, 0000</p>
+                </div>
+
+                <div class="creceipt">
+                    <h4>NO. 2366</h4>
+                    <h3>COLLECTION RECEIPT</h3>
+                    <table border="1">
+                        <tr>
+                            <td>MO. AMORT</td>
+                            <td width="80"><input type="text" style="width:75px; height: 15px; border-style: none; text-align: center; font-size: 1em; font-style: italic"></td>
+                        </tr>
+                        <tr>
+                            <td height="20"></td>
+                            <td width="80"></td>
+                        </tr>
+                        <tr>
+                            <td height="20"></td>
+                            <td width="80"></td>
+                        </tr>
+                        <tr>
+                            <td height="20"></td>
+                            <td width="80"></td>
+                        </tr>
+                        <tr>
+                            <td>INT.</td>
+                            <td><input type="text" style="width:75px; height: 15px; border-style: none; text-align: center; font-size: 1em; font-style: italic"></td>
+                        </tr>
+                        <tr>
+                            <td>REBATE</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>TOTAL AMOUNT DUE:</td>
+                            <td><input type="text" style="width:75px; height: 15px; border-style: none; text-align: center; font-size: 1em; font-style: italic"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center;">FORM OF PAYMENT</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="checkbox" name="c1">
+                                <label for="c1">CASH</label>
+                                <input type="checkbox" name="C2">
+                                <label for="C2">CHECK</label>
+                                <input type="checkbox" name="C3">
+                                <label for="C3">CREDIT</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-right-style: none">CHECK NO:</td>
+                            <td style="border-left-style: none"><input type="text" style="width:75px; height: 15px; border-style: none; text-align: center; font-size: 1em; font-style: italic"></td>
+                        </tr>
+                        <tr>
+                            <td style="border-right-style: none">BANK:</td>
+                            <td style="border-left-style: none"><input type="text" style="width:75px; height: 15px; border-style: none; text-align: center; font-size: 1em; font-style: italic"></td>
+                        </tr>
+                        <tr>
+                            <td style="border-right-style: none">DATE:</td>
+                            <td style="border-left-style: none"><input type="text" style="width:75px; height: 15px; border-style: none; text-align: center; font-size: 1em; font-style: italic"></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="asign">
+                    <input type="text" name="sign" style="width: 251px; padding-top: 20px; text-align: center; font-size: 1em; font-style: italic; height: 30px">
+                    <label for="sign" style="padding-left: 27px">AUTHORIZED SIGNATURE</label>
+                </div>
+            </div>
+            
+        </div>
+        
+    </body>
+    
+</html>
